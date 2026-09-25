@@ -11,7 +11,7 @@ paths:
 ---
 
 # Theia project rules
-- Theia code detected. Invoke the `theia-dev` skill before writing DI, contribution, or RPC code.
+- Theia code detected. Invoke the `theia` skill before writing DI, contribution, or RPC code.
 - Terse output: code plus ≤2 lines of rationale. No filler, no summaries of what was done.
 - Minimal reads: open only the files being edited and the type definitions they consume. Skip node_modules (except a targeted grep of `@theia/*/src` for a symbol), lib/, src-gen/, gen-webpack*.
 - Public services: symbol + interface + `@injectable` impl, bound with `toSelf().inSingletonScope()` + `toService`. Injected fields are `protected readonly`.
